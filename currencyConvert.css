@@ -1,0 +1,94 @@
+body{
+    
+    background:linear-gradient(in oklab, rgb(69, 20, 92), rgb(69, 32, 155))
+}
+h1{
+    text-align: center;
+    font-size:xx-large;
+}
+.box{
+   
+    display: flex;
+    justify-content: center;
+    border:5px ;
+    background-color:rgb(142, 102, 180);
+    height:20rem;
+    text-align: center;
+    border-radius: 60px 30px;
+    margin: 5rem;
+}
+
+.footer{
+    
+    position: absolute;
+    bottom: 90px;
+    left: 0;
+    right: 0;
+    height: 70px;
+    width: 100vw;
+    padding-top: 40px;
+    color: #fff;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 5rem 3rem 0;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: #fff;
+    border: 1.1px solid white;
+    padding: 5px;
+    border-radius: 50%;
+}
+.socials a i{
+    font-size: 1.1rem;
+    width: 20px;
+    transition: .4s ease;
+}
+.socials a:hover i{
+    color: rgb(8, 202, 202);
+}
+.amount{
+    margin:40px;
+
+}
+#amt{
+    width: 10rem;
+    border-color:lightslategray ;
+    border-radius: 5px;
+    height: 30px;
+    margin: 10px;
+    
+    
+}
+.To{
+    
+    margin: 40px;
+}
+.From{
+    
+    margin: 40px;
+}
+.msg {
+    margin:px ;
+    text-align: center;
+    font-size: x-large;
+  }
+i{
+    margin-top: 110px;
+    margin-bottom: auto;
+    border: 0.3px solid white;
+    border-radius: 50%;
+    
+    font-size: 1.5rem;}
+
+i:hover{
+    opacity: 0.5;
+    cursor:pointer;
+}
